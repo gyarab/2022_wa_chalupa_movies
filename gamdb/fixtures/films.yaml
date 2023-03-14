@@ -1,0 +1,6 @@
+- model: films.movie
+  pk: 1
+  fields:
+      name: Jedu domů
+      year: 2023
+      description: Nedojel.
