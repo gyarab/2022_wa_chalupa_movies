@@ -4,46 +4,55 @@
       name: Jedu domů
       year: 2023
       description: Nedojel.
+- model: films.movie
   pk: 2
   fields:
       name: Zase ve škole
       year: 2023
       description: Ach jo
+- model: films.movie
   pk: 3
   fields:
       name: Proč?
       year: 2023
       description: Nevím
+- model: films.movie
   pk: 4
   fields:
       name: Od kdy do kdy?
       year: 2023
       description: Od úterý do včera
+- model: films.movie
   pk: 5
   fields:
       name: A chčije a chčije
       year: 2023
       description: Jsem sám, jsem u lesa.
+- model: films.movie
   pk: 6
   fields:
       name: Jízdenky prosím
       year: 2023
       description: Nemám
+- model: films.movie
   pk: 7
   fields:
       name: Roční období
       year: 2023
       description: Jaro, léto, podzim, zima.
+- model: films.movie
   pk: 8
   fields:
       name: 2023
       year: 2023
       description: Proč vyšly všechny filmy v roce 2023?
+- model: films.movie
   pk: 9
   fields:
       name: 69°C
       year: 2023
       description: Léto se blíží
+- model: films.movie
   pk: 10
   fields:
       name: Když se daří, tak se daří
