@@ -3,7 +3,7 @@ from django.db import models
 
 class Movie(models.Model):
     name = models.CharField(max_length=200)
-    slug = models.SlugField()
+    slug = models.SlugField(default="")
     image_url = models.CharField(max_length=255, blank=True, null=True)
     year = models.IntegerField()
     description = models.TextField()
@@ -21,7 +21,7 @@ class Movie(models.Model):
 
 class Director(models.Model):
     name = models.CharField(max_length=255)
-    slug = models.SlugField()
+    slug = models.SlugField(default="")
     birth_year = models.IntegerField(blank=True, null=True)
 
     def __str__(self):
@@ -30,7 +30,7 @@ class Director(models.Model):
 
 class Actor(models.Model):
     name = models.CharField(max_length=255)
-    slug = models.SlugField()
+    slug = models.SlugField(default="")
     birth_year = models.IntegerField(blank=True, null=True)
     photo_url = models.CharField(max_length=255, blank=True, null=True)
     description = models.TextField(blank=True, null=True)

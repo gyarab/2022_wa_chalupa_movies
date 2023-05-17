@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Movie, Director, Actor, Genre, Comment
+from .forms import CommentForm
 
 
 def homepage(request):
