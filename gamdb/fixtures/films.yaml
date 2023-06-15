@@ -5,13 +5,6 @@
       year: 2023
       description: Nedojel.
       image_url: https://picsum.photos/180/100
-      director: 1
-      genres:
-          - 1
-      avg_rating: 69
-      actors:
-          - 1
-          - 2
 
 - model: films.movie
   pk: 2
@@ -20,12 +13,6 @@
       year: 2023
       description: Ach jo
       image_url: https://picsum.photos/180/100
-      director: 2
-      genres:
-          - 2
-      avg_rating: 69
-      actors:
-          - 1
 
 - model: films.movie
   pk: 3
@@ -34,13 +21,6 @@
       year: 2023
       description: Nevím
       image_url: https://picsum.photos/180/100
-      director: 1
-      genres:
-          - 1
-          - 2
-      avg_rating: 69
-      actors:
-          - 2
 
 - model: films.movie
   pk: 4
@@ -49,13 +29,6 @@
       year: 2023
       description: Od úterý do včera
       image_url: https://picsum.photos/180/100
-      director: 2
-      genres:
-          - 1
-      avg_rating: 69
-      actors:
-          - 1
-          - 2
 
 - model: films.movie
   pk: 5
@@ -64,12 +37,6 @@
       year: 2023
       description: Jsem sám, jsem u lesa.
       image_url: https://picsum.photos/180/100
-      director: 1
-      genres:
-          - 2
-      avg_rating: 69
-      actors:
-          - 1
 
 - model: films.movie
   pk: 6
@@ -78,13 +45,6 @@
       year: 2023
       description: Nemám
       image_url: https://picsum.photos/180/100
-      director: 2
-      genres:
-          - 1
-          - 2
-      avg_rating: 69
-      actors:
-          - 2
 
 - model: films.movie
   pk: 7
@@ -93,13 +53,6 @@
       year: 2023
       description: Jaro, léto, podzim, zima.
       image_url: https://picsum.photos/180/100
-      director: 1
-      genres:
-          - 1
-      avg_rating: 69
-      actors:
-          - 1
-          - 2
 
 - model: films.movie
   pk: 8
@@ -108,12 +61,6 @@
       year: 2023
       description: Proč vyšly všechny filmy v roce 2023?
       image_url: https://picsum.photos/180/100
-      director: 2
-      genres:
-          - 2
-      avg_rating: 69
-      actors:
-          - 1
 
 - model: films.movie
   pk: 9
@@ -122,13 +69,6 @@
       year: 2023
       description: Léto se blíží
       image_url: https://picsum.photos/180/100
-      director: 1
-      genres:
-          - 1
-          - 2
-      avg_rating: 69
-      actors:
-          - 2
 
 - model: films.movie
   pk: 10
@@ -137,10 +77,3 @@
       year: 2023
       description: SOČ
       image_url: https://picsum.photos/180/100
-      director: 2
-      genres:
-          - 1
-      avg_rating: 69
-      actors:
-          - 1
-          - 2
