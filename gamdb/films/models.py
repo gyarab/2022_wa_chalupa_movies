@@ -4,13 +4,15 @@ from django.db import models
 class Movie(models.Model):
     name = models.CharField(max_length=200)
     slug = models.SlugField(default="")
-    image_url = models.CharField(max_length=255, blank=True, null=True)
     year = models.IntegerField()
     description = models.TextField()
+    image_url = models.CharField(max_length=255, blank=True, null=True)
     director = models.ForeignKey(
-        "Director", blank=True, null=True, on_delete=models.SET_NULL)
+        "Director", blank=True, null=True, on_delete=models.SET_NULL
+    )
     genres = models.ManyToManyField("Genre", blank=True)
     avg_rating = models.FloatField(blank=True, null=True)
+    actors = models.ManyToManyField("Actor", blank=True)
 
     def __str__(self):
         return f"{self.name} ({self.year})"

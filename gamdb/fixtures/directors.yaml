@@ -1,0 +1,11 @@
+- model: films.director
+  pk: 1
+  fields:
+      name: Génius Beneš
+      birth_year: 2000
+
+- model: films.director
+  pk: 2
+  fields:
+      name: Žakaranda
+      birth_year: 6969

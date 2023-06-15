@@ -4,7 +4,7 @@
     {% for movie in movies %}
     <div class="col">
         <div class="card h-100">
-            <img class="card-img-top" src="https://place-hold.it/180x100/" alt="Card image cap" />
+            <img class="card-img-top" src="{{movie.image_url}}" alt="Card image cap" />
             <div class="card-body">
                 <h5 class="card-title">{{ movie.name }}</h5>
                 <p class="card-text">{{ movie.description }}</p>
@@ -14,7 +14,6 @@
             </div>
         </div>
     </div>
-
     {% endfor %}
 </div>
 {% endblock content %}

@@ -1,0 +1,11 @@
+- model: films.actor
+  pk: 1
+  fields:
+      name: Jan Okcom
+      birth_year: 2020
+
+- model: films.actor
+  pk: 2
+  fields:
+      name: Denisa Okcomá
+      birth_year: 2020
